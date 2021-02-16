@@ -29,7 +29,7 @@ User Name: sa
 Password:
 
 *Teniendo códico fuente a disposición se puede generar archivo jar poniendo en la terminal:
-mvn clean package spring-boot:repackage
+```mvn clean package spring-boot:repackage```
 El archivo ejecutable aparece en subcarpeta /target.
 
 ### Para cualquier pregunta no dudéis en contactar conmigo!
