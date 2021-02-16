@@ -1,6 +1,6 @@
 ### Para poner la aplicación en marcha:
-1) Descarga archivo jar (TaskApp.jar) de la aplicación TaskApp.
-2) Asegurate que tienes java versión 11 instalado y que se encuentra en variable PATH de su sistema
+1) Descarga archivo jar (TaskApp.jar) de la aplicación TaskApp. https://github.com/MateoM24/TaskApp/raw/master/TaskApp.jar
+2) Asegurate que tienes java versión 11 instalado y que se encuentra en variable PATH de tu sistema operativo.
 3) Asegurate que puerto 8080 está libre.
 4) Dirigite a donde has descargado archivo TaskApp.jar
 5) En la terminal pon:
@@ -17,7 +17,7 @@ Ademas, abajo hay descripción de DTOs (Data Transfer Objects).
 Descripción de REST Api en formato json se encuentra aquí:  
 http://localhost:8080/v2/api-docs
 
-#### La base de datos
+#### La base de datos:
 La aplicación hace usu de base de datos H2 que corre en memoria.
 Se puede acceder a consola de H2:
 http://localhost:8080/h2-console
@@ -30,6 +30,7 @@ Password:
 
 *Teniendo códico fuente a disposición se puede generar archivo jar poniendo en la terminal:
 ```mvn clean package spring-boot:repackage```
+
 El archivo ejecutable aparece en subcarpeta /target.
 
 ### Para cualquier pregunta no dudéis en contactar conmigo!
