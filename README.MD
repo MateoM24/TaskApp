@@ -4,7 +4,9 @@
 3) Asegurate que puerto 8080 está libre.
 4) Dirigite a donde has descargado archivo TaskApp.jar
 5) En la terminal pon:
-   ```java -jar TaskApp.jar```
+   ```
+   java -jar TaskApp.jar
+   ```
 6) La aplicación debe estar lista en poco tiempo.
 
 
@@ -23,14 +25,18 @@ Se puede acceder a consola de H2:
 http://localhost:8080/h2-console
 
 El accesso:
+Introduce datos asi:
+https://github.com/MateoM24/TaskApp/blob/master/H2-console.png
+```
 Driver Class: org.h2.Driver
 JDBC URL: jdbc:h2:mem:tasksapp
 User Name: sa
 Password:
-
+```
 *Teniendo códico fuente a disposición se puede generar archivo jar poniendo en la terminal:
-```mvn clean package spring-boot:repackage```
-
+```
+mvn clean package spring-boot:repackage
+```
 El archivo ejecutable aparece en subcarpeta /target.
 
 ### Para cualquier pregunta no dudéis en contactar conmigo!
